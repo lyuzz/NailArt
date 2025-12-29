@@ -1,0 +1,13 @@
+{
+  "pages": [
+    "pages/extract/index",
+    "pages/library/index",
+    "pages/tryon/index"
+  ],
+  "window": {
+    "navigationBarTitleText": "Nail Art Try-On"
+  },
+  "usingComponents": {
+    "asset-card": "components/asset-card/index"
+  }
+}

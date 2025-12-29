@@ -1,0 +1,12 @@
+fastapi==0.110.0
+uvicorn==0.29.0
+opencv-python==4.9.0.80
+Pillow==10.2.0
+numpy==1.26.4
+mediapipe==0.10.9
+SQLAlchemy==2.0.27
+pydantic==2.6.2
+redis==5.0.1
+rq==1.15.1
+pytest==8.0.1
+httpx==0.26.0
