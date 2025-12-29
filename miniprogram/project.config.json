@@ -1,0 +1,9 @@
+{
+  "miniprogramRoot": "./",
+  "projectname": "nailart-tryon",
+  "description": "Nail art try-on mini program",
+  "appid": "touristappid",
+  "setting": {
+    "urlCheck": false
+  }
+}
