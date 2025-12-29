@@ -8,6 +8,6 @@
     "navigationBarTitleText": "Nail Art Try-On"
   },
   "usingComponents": {
-    "asset-card": "components/asset-card/index"
+    "asset-card": "/components/asset-card/index"
   }
 }
