@@ -1,0 +1,4 @@
+<view class="card">
+  <image class="preview" mode="widthFix" src="{{asset.preview_url}}"></image>
+  <view class="title">{{asset.title}}</view>
+</view>

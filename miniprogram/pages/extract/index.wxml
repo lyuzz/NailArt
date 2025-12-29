@@ -1,0 +1,12 @@
+<view class="container">
+  <button class="button" bindtap="chooseImage">上传成品美甲图</button>
+  <view wx:if="{{loading}}">处理中...</view>
+  <image wx:if="{{previewUrl}}" class="preview" mode="widthFix" src="{{previewUrl}}" />
+  <view wx:if="{{nails.length}}">
+    <view class="card" wx:for="{{nails}}" wx:key="name">
+      <text>{{item.name}}</text>
+      <image class="preview" mode="widthFix" src="{{item.rgba_url}}" />
+    </view>
+  </view>
+  <button wx:if="{{suggestedAsset}}" class="button" bindtap="saveAsset">保存到素材库</button>
+</view>

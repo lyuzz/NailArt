@@ -1,0 +1,7 @@
+<view class="container">
+  <button class="button" bindtap="chooseImage">上传手部照片</button>
+  <view wx:if="{{loading}}">处理中...</view>
+  <image wx:if="{{resultUrl}}" class="preview" mode="widthFix" src="{{resultUrl}}" />
+  <button wx:if="{{resultUrl}}" class="button" bindtap="saveImage">保存到相册</button>
+  <image wx:if="{{debugUrl}}" class="preview" mode="widthFix" src="{{debugUrl}}" />
+</view>

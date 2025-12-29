@@ -1,0 +1,5 @@
+<view class="container">
+  <view wx:for="{{assets}}" wx:key="id" bindtap="goTryon" data-id="{{item.id}}">
+    <asset-card asset="{{item}}" />
+  </view>
+</view>
